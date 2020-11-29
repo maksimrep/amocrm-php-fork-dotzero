@@ -284,7 +284,7 @@ class Unsorted extends AbstractModel
     }
 
     /**
-     * Добавление контакта или компании которая будет создана после одобрения заявки.
+     * Добавление контакта котораый будет создан после одобрения заявки.
      *
      * @link https://developers.amocrm.ru/rest_api/unsorted/add.php
      * @param mixed $values Контакт или массив контактов
@@ -293,5 +293,16 @@ class Unsorted extends AbstractModel
     public function addDataContact($values)
     {
         return $this->addData('contacts', $values);
+    }
+    
+    /**
+     * Добавление компании которая будет создана после одобрения заявки.
+     *
+     * @param mixed $values Компания или массив компаний
+     * @return $this
+     */
+    public function addDataCompany($values)
+    {
+        return $this->addData('companies', $values);
     }
 }
