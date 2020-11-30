@@ -1,12 +1,12 @@
 {
-    "name": "dotzero/amocrm",
-    "description": "Удобный и быстрый клиент для работы с API amoCRM",
+    "name": "maksimrep/amocrm-php-fork-dotzero",
+    "description": "Удобный и быстрый клиент для работы с API V2 amoCRM(fork dotzero) Добавлен метод работы с компаниями в неразобранном    ",
     "license": "MIT",
     "keywords": ["amocrm", "crm", "api"],
     "authors": [
         {
-            "name": "dotzero",
-            "email": "mail@dotzero.ru"
+            "name": "maksimrep",
+            "email": "maksimrep@uandex.ru"
         }
     ],
     "require": {
