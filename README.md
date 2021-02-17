@@ -27,20 +27,20 @@ https://web.archive.org/web/20170801033744/https://developers.amocrm.ru/rest_api
 ### Через composer:
 
 ```bash
-$ composer require dotzero/amocrm
+$ composer require maksimrep/amocrm-php-fork-dotzero
 ```
 
 или добавить
 
 ```json
-"dotzero/amocrm": "0.3.*"
+"maksimrep/amocrm-php-fork-dotzero": "0.3.*"
 ```
 
 в секцию `require` файла composer.json.
 
 ### Без использования composer:
 
-Скачать последнюю версию [amocrm.phar](https://github.com/dotzero/amocrm-php/releases/latest).
+Скачать последнюю версию [amocrm.phar](https://github.com/maksimrep/amocrm-php-fork-dotzero/releases/latest).
 
 ```php
 <?php
