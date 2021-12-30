@@ -136,7 +136,12 @@ abstract class AbstractModel extends Request implements ArrayAccess, ModelInterf
         }
 
         foreach ($values as $val) {
-            list($value, $enum) = $val;
+        
+            if (isset($val) && count($val) > 1) {
+                list($value, $enum) = $val;
+            } else {
+                continue;
+            }
 
             $fieldValue = [
                 'value' => $value,
